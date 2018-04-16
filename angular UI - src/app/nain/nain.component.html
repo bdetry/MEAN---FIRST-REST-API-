@@ -1,0 +1,12 @@
+<a routerLink="/nain/new">Ajouter un Nain</a>
+<span class="head">
+<span class="nain_cont">
+    <p class="contTitle">Nains</p>
+      <ul class="ul">
+      <li *ngFor="let nain of nains; let i=index" [value]="nain.name">
+        <a [routerLink]="nain._id" >{{ nain.name }}</a>
+      </li>
+      </ul>
+    </span>
+    <router-outlet></router-outlet>
+</span>

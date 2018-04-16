@@ -1,0 +1,15 @@
+<div *ngIf="nain" class="nain_cont">    
+    <input class="h3" #nainName value={{nain.name}}>
+    <p>id : {{ nain._id }} </p>
+    <input #nainId value="{{nain._id}}" hidden>
+    <button (click)="encode_url_for_update(nainName.value , nainId.value )">Changer</button>
+
+    <input #nainId value="{{nain._id}}" hidden>
+
+
+<input #nainIddel value="{{ nain._id }}" hidden>
+<button (click)="delete( nainIddel.value)"> Supprimer
+    </button>
+
+</div>
+  

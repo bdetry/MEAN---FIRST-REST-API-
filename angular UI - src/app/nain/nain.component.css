@@ -1,0 +1,45 @@
+.head
+{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.ul li a
+{
+    margin: 2px;
+    display: block;
+    width:90%;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    color: #999;
+
+}
+
+.contTitle
+{
+    text-align: center;
+    padding: 10px;
+    color: #666;
+}
+
+.nain_cont
+{
+    display: block;
+    width: 20%;
+    height: 30vh;
+    background-color: lightblue;
+    padding: 10px;
+    overflow: auto;
+    margin-right:20px; 
+}

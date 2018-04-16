@@ -1,0 +1,32 @@
+<h1>Le nains</h1>
+
+<span class="head">
+
+<span class="nain_cont">
+<p class="contTitle">Nains</p>
+  <ul class="ul">
+  <li *ngFor="let nain of nains; let i=index" [value]="nain.name">
+    <p routerLink="/nain/{{nain._id}}">{{ nain.name }}</p>
+  </li>
+  </ul>
+</span>
+
+<span class="groupe_cont">
+    <p class="contTitle">Groupes</p>
+      <ul class="ul">
+      <li *ngFor="let groupe of groupes; let i=index" [value]="groupe.name">
+        <p>{{ groupe.name }}</p>
+      </li>
+      </ul>
+</span>
+
+<span class="ville_cont">
+    <p class="contTitle">Villes</p>
+      <ul class="ul">
+      <li *ngFor="let ville of villes; let i=index" [value]="ville.name">
+        <p>{{ ville.name }}</p>
+      </li>
+      </ul>
+</span>
+
+</span>

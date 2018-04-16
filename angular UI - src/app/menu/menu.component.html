@@ -1,0 +1,9 @@
+<h3 style="text-align:center;">{{url | uppercase}}</h3>
+<nav (click)="ChangeRoute()">
+  <ul>
+    <li [class.selected]="home === url"  routerLink="/{{home}}" >Home</li>
+    <li [class.selected]="nain === url"  routerLink="/{{nain}}"  >Nain</li>
+    <li [class.selected]="groupe === url"  routerLink="/{{groupe}}" >Groupe</li>
+    <li [class.selected]="ville === url"  routerLink="/{{ville}}" >Ville</li>
+  </ul>
+</nav>

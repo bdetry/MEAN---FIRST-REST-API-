@@ -1,0 +1,75 @@
+h1
+{
+    text-align: center;
+    color: #333;
+}
+
+.head
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+p
+{
+    padding: 6px;
+}
+
+p:hover
+{
+    cursor: pointer;
+}
+
+.ul
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.ul li{
+
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    color: #999;
+
+}
+
+.contTitle
+{
+    text-align: center;
+    padding: 10px;
+    color: #666;
+}
+
+.nain_cont
+{
+    display: block;
+    width: 30%;
+    height: 50vh;
+    background-color: lightblue;
+    padding: 10px;
+    overflow: auto;
+}
+
+.groupe_cont
+{
+    display: block;
+    width: 30%;
+    height: 50vh;
+    background-color: lightgreen;
+    padding: 10px;
+    overflow: auto;
+}
+
+.ville_cont
+{
+    display: block;
+    width: 30%;
+    height: 50vh;
+    background-color: lightcoral;
+    padding: 10px;
+    overflow: auto;
+}
+
